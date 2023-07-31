@@ -1,7 +1,7 @@
 //your JS code here. If required.
 function getSize(){
-	var w = document.documentElement.clientWidth;
-	var h = document.documentElement.clientHeight;
+	var Width = document.documentElement.clientWidth;
+	var Height = document.documentElement.clientHeight;
 
-	document.getElementById('sizeInfo').innerHTML = "<h1>Width: " + Width + " <br> Height: " + Height + "</h1>";
+	document.getElementById('sizeInfo').innerHTML = "<h1>Width: " + Width + " and  Height: " + Height + "</h1>";
 }
